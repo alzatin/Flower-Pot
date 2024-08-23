@@ -799,19 +799,6 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.4807291666666667,
-            "y": 0.6164705882352941,
-            "uniqueID": 1724449257600,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
         }
     ],
     "allConnectors": [
