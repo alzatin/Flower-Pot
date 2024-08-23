@@ -653,6 +653,81 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4192708333333333,
+                    "y": 0.583529411764706,
+                    "uniqueID": 1724450636349,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724450581760
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5010416666666666,
+                    "y": 0.6729411764705883,
+                    "uniqueID": 1724450648918,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724450595390
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5640625,
+                    "y": 0.8564705882352941,
+                    "uniqueID": 1724450654226,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724450602598
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -698,7 +773,34 @@
                     "ap1ID": 1724450434854,
                     "ap2ID": 1724450595390
                 },
-                null
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1724450434854,
+                    "ap2ID": 1724450602598
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724450581760,
+                    "ap2ID": 1724450636349
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724450595390,
+                    "ap2ID": 1724450648918
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724450602598,
+                    "ap2ID": 1724450654226
+                }
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
