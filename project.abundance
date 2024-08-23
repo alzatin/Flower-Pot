@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Layer height",
-            "ioValue": 10
+            "ioValue": 18
         },
         {
             "name": "Outer Pot Radius",
@@ -26,7 +26,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1724442521471,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1724445987173
+                }
+            ]
         },
         {
             "atomType": "Input",
@@ -166,33 +171,31 @@
             "compiledBom": []
         },
         {
-            "atomType": "Loft",
-            "name": "Loft",
-            "x": 0.42604166666666665,
-            "y": 0.5505882352941176,
-            "uniqueID": 1724445908961,
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4239583333333333,
+            "y": 0.5364705882352941,
+            "uniqueID": 1724445987173,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
+                    "name": "geometry",
                     "ioValue": 1724444233895
                 },
                 {
-                    "name": "3D shape 2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 1724444233895
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": ""
+                    "name": "height",
+                    "ioValue": 18
                 }
-            ],
-            "closedSelection": 0
+            ]
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 1724443916539,
+            "ap2ID": 1724445987173
+        },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "Outer Pot Radius",
@@ -202,10 +205,17 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1724444233895,
-            "ap2ID": 1724445908961
+            "ap2ID": 1724445987173
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724445987173,
+            "ap2ID": 1724442521471
         }
     ],
     "unitsKey": "MM",

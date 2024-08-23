@@ -1,3 +1,6 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-41.000001 -41.000001 82.000002 82.000002" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
-    <path d="M -40 0 A 40 40 0 0 0 40 0 A 40 40 0 0 0 -40 0 Z" />
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-41.000001000000005 -16.17341713752556 82.000002 32.34683427505112" fill="none" stroke="black" stroke-width="0.6%" vector-effect="non-scaling-stroke">
+    <path d="M 40 8.8882 A 40 6.28522 360 0 1 28.2841 13.33255 A 40 6.28522 360 0 1 -40 8.8882" />
+    <path d="M -28.2841 -13.33255 A 40 6.28522 360 0 1 40 -8.8882 A 40 6.28522 360 0 1 28.2841 -4.44385 A 40 6.28522 360 0 1 -40 -8.8882 L -40 8.8882" />
+    <path d="M -40 -8.8882 A 40 6.28522 360 0 1 -28.2841 -13.33255" />
+    <path d="M 40 -8.8882 L 40 8.8882" />
 </svg>
