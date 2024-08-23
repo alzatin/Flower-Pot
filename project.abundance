@@ -1277,6 +1277,81 @@
                             "ioValue": ""
                         }
                     ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5213541666666667,
+                    "y": 0.5435294117647059,
+                    "uniqueID": 1724453891064,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724453155322
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6239583333333333,
+                    "y": 0.42588235294117643,
+                    "uniqueID": 1724453921767,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724453155322
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6729166666666666,
+                    "y": 0.12,
+                    "uniqueID": 1724453930206,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724453155322
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1363,6 +1438,27 @@
                     "ap2Primary": false,
                     "ap1ID": 1724452948954,
                     "ap2ID": 1724453155322
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724453155322,
+                    "ap2ID": 1724453891064
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724453155322,
+                    "ap2ID": 1724453921767
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724453155322,
+                    "ap2ID": 1724453930206
                 }
             ],
             "fileTypeVersion": 1,
