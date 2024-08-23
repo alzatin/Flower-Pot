@@ -37,7 +37,7 @@
             "atomType": "Input",
             "name": "Layer height",
             "x": 0.013333333333333334,
-            "y": 0.41882352941176465,
+            "y": 0.33176470588235296,
             "uniqueID": 1724443916539,
             "ioValues": []
         },
@@ -45,7 +45,7 @@
             "atomType": "Input",
             "name": "Outer Pot Radius",
             "x": 0.013333333333333334,
-            "y": 0.5647058823529412,
+            "y": 0.5176470588235293,
             "uniqueID": 1724443994387,
             "ioValues": []
         },
@@ -53,15 +53,15 @@
             "atomType": "Input",
             "name": "Innr pot radius",
             "x": 0.013333333333333334,
-            "y": 0.7294117647058824,
+            "y": 0.7058823529411764,
             "uniqueID": 1724444015515,
             "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.21770833333333334,
-            "y": 0.5976470588235294,
+            "x": 0.22552083333333336,
+            "y": 0.5858823529411765,
             "uniqueID": 1724444233895,
             "ioValues": [
                 {
@@ -188,143 +188,6 @@
             ]
         },
         {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.14947916666666666,
-            "y": 0.8494117647058823,
-            "uniqueID": 1724446841073,
-            "ioValues": [
-                {
-                    "name": "Layer height",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Outer Pot Radius",
-                    "ioValue": 100
-                },
-                {
-                    "name": "Innr pot radius",
-                    "ioValue": 78
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1724446840700,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1724446841422
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Layer height",
-                    "x": 0.013333333333333334,
-                    "y": 0.41882352941176465,
-                    "uniqueID": 1724446841496,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Outer Pot Radius",
-                    "x": 0.013333333333333334,
-                    "y": 0.5764705882352942,
-                    "uniqueID": 1724446841284,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Innr pot radius",
-                    "x": 0.013333333333333334,
-                    "y": 0.7294117647058824,
-                    "uniqueID": 1724446841153,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.2973958333333333,
-                    "y": 0.49176470588235294,
-                    "uniqueID": 1724446841422,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 200
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "2*x",
-                    "x": 0.18333333333333335,
-                    "y": 0.4870588235294118,
-                    "uniqueID": 1724446841030,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 100
-                        }
-                    ],
-                    "currentEquation": "2*x"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Layer height",
-                    "x": 0.013333333333333334,
-                    "y": 0.41882352941176465,
-                    "uniqueID": 1724446840991,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Outer Pot Radius",
-                    "x": 0.013333333333333334,
-                    "y": 0.5647058823529412,
-                    "uniqueID": 1724446840635,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Innr pot radius",
-                    "x": 0.013333333333333334,
-                    "y": 0.7294117647058824,
-                    "uniqueID": 1724446840797,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": 1724446841284,
-                    "ap2ID": 1724446841030
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1724446841422,
-                    "ap2ID": 1724446840700
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "diameter",
-                    "ap2Primary": false,
-                    "ap1ID": 1724446841030,
-                    "ap2ID": 1724446841422
-                }
-            ],
-            "fileTypeVersion": 1,
-            "compiledBom": []
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.31145833333333334,
@@ -333,7 +196,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1724446841073
+                    "ioValue": ""
                 },
                 {
                     "name": "height",
@@ -382,13 +245,6 @@
             "ap2ID": 1724444233895
         },
         {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Innr pot radius",
-            "ap2Primary": false,
-            "ap1ID": 1724444015515,
-            "ap2ID": 1724446841073
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -401,13 +257,6 @@
             "ap2Primary": false,
             "ap1ID": 1724445987173,
             "ap2ID": 1724446916221
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1724446841073,
-            "ap2ID": 1724446871927
         },
         {
             "ap1Name": "geometry",
