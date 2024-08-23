@@ -657,8 +657,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.42604166666666665,
-                    "y": 0.548235294117647,
+                    "x": 0.534375,
+                    "y": 0.5341176470588236,
                     "uniqueID": 1724450636349,
                     "ioValues": [
                         {
@@ -682,8 +682,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5010416666666666,
-                    "y": 0.6729411764705883,
+                    "x": 0.6161458333333333,
+                    "y": 0.6564705882352941,
                     "uniqueID": 1724450648918,
                     "ioValues": [
                         {
@@ -707,8 +707,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5640625,
-                    "y": 0.8564705882352941,
+                    "x": 0.6348958333333333,
+                    "y": 0.863529411764706,
                     "uniqueID": 1724450654226,
                     "ioValues": [
                         {
@@ -730,52 +730,75 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 0.33229166666666665,
-                    "y": 0.5670588235294117,
-                    "uniqueID": 1724450767326,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 0.3390625,
-                    "y": 0.6329411764705882,
-                    "uniqueID": 1724450782821,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 0.3979166666666667,
-                    "y": 0.7388235294117647,
-                    "uniqueID": 1724450801206,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 0.40625,
-                    "y": 0.7976470588235294,
-                    "uniqueID": 1724450804589,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 0.459375,
-                    "y": 0.8705882352941177,
-                    "uniqueID": 1724450808267,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 0.46875,
-                    "y": 0.9364705882352942,
-                    "uniqueID": 1724450812441,
-                    "ioValues": []
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.22552083333333336,
+                    "y": 0.20941176470588233,
+                    "uniqueID": 1724450898179,
+                    "ioValues": [
+                        {
+                            "name": "Layer height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Outer Pot Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Innr pot radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Drainage Diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724450897706,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Layer height",
+                            "x": 0.013333333333333334,
+                            "y": 0.33176470588235296,
+                            "uniqueID": 1724450897520,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Outer Pot Radius",
+                            "x": 0.013333333333333334,
+                            "y": 0.5176470588235293,
+                            "uniqueID": 1724450897761,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Innr pot radius",
+                            "x": 0.013333333333333334,
+                            "y": 0.7058823529411764,
+                            "uniqueID": 1724450897520,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Drainage Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.8776470588235293,
+                            "uniqueID": 1724450897984,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
