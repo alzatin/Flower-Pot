@@ -121,9 +121,9 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "2x",
-                    "x": 0.19062500000000002,
-                    "y": 0.4823529411764706,
+                    "name": "2*x",
+                    "x": 0.18333333333333335,
+                    "y": 0.4870588235294118,
                     "uniqueID": 1724445183534,
                     "ioValues": [
                         {
@@ -131,7 +131,7 @@
                             "ioValue": 1
                         }
                     ],
-                    "currentEquation": "2x"
+                    "currentEquation": "2*x"
                 }
             ],
             "allConnectors": [],
