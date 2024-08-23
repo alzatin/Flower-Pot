@@ -61,15 +61,15 @@
             "ioValues": [
                 {
                     "name": "Layer height",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Outer Pot Radius",
-                    "ioValue": 10
+                    "ioValue": 100
                 },
                 {
                     "name": "Innr pot radius",
-                    "ioValue": 10
+                    "ioValue": 78
                 }
             ],
             "topLevel": false,
@@ -439,17 +439,17 @@
         {
             "atomType": "Molecule",
             "name": "Pot Floor",
-            "x": 0.290625,
-            "y": 0.3764705882352941,
+            "x": 0.28958333333333336,
+            "y": 0.3458823529411765,
             "uniqueID": 1724447660855,
             "ioValues": [
                 {
                     "name": "Layer height",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Outer Pot Radius",
-                    "ioValue": 10
+                    "ioValue": 78
                 },
                 {
                     "name": "Innr pot radius",
@@ -498,17 +498,17 @@
         {
             "atomType": "Molecule",
             "name": "Pot Legs",
-            "x": 0.38281250000000006,
-            "y": 0.5976470588235294,
+            "x": 0.3817708333333333,
+            "y": 0.5741176470588235,
             "uniqueID": 1724448144661,
             "ioValues": [
                 {
                     "name": "Layer height",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Outer Pot Radius",
-                    "ioValue": 10
+                    "ioValue": 100
                 },
                 {
                     "name": "Innr pot radius",
@@ -556,18 +556,18 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.44947916666666665,
-            "y": 0.8517647058823529,
+            "name": "Pot Tray",
+            "x": 0.4375,
+            "y": 0.8941176470588235,
             "uniqueID": 1724448201625,
             "ioValues": [
                 {
                     "name": "Layer height",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Outer Pot Radius",
-                    "ioValue": 10
+                    "ioValue": 100
                 },
                 {
                     "name": "Innr pot radius",
@@ -607,6 +607,124 @@
                     "y": 0.7058823529411764,
                     "uniqueID": 1724448202283,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Pot Tray Bottom",
+                    "x": 0.2515625,
+                    "y": 0.3035294117647059,
+                    "uniqueID": 1724448300157,
+                    "ioValues": [
+                        {
+                            "name": "Layer height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Outer Pot Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Innr pot radius",
+                            "ioValue": 10
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724448299779,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Layer height",
+                            "x": 0.013333333333333334,
+                            "y": 0.33176470588235296,
+                            "uniqueID": 1724448299631,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Outer Pot Radius",
+                            "x": 0.013333333333333334,
+                            "y": 0.5176470588235293,
+                            "uniqueID": 1724448299765,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Innr pot radius",
+                            "x": 0.013333333333333334,
+                            "y": 0.7058823529411764,
+                            "uniqueID": 1724448299881,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.3104166666666667,
+                    "y": 0.5458823529411765,
+                    "uniqueID": 1724448321096,
+                    "ioValues": [
+                        {
+                            "name": "Layer height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Outer Pot Radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Innr pot radius",
+                            "ioValue": 10
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724448321017,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Layer height",
+                            "x": 0.013333333333333334,
+                            "y": 0.33176470588235296,
+                            "uniqueID": 1724448321151,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Outer Pot Radius",
+                            "x": 0.013333333333333334,
+                            "y": 0.5176470588235293,
+                            "uniqueID": 1724448320809,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Innr pot radius",
+                            "x": 0.013333333333333334,
+                            "y": 0.7058823529411764,
+                            "uniqueID": 1724448320475,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [],
@@ -614,7 +732,71 @@
             "compiledBom": {}
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Layer height",
+            "ap2Primary": false,
+            "ap1ID": 1724443916539,
+            "ap2ID": 1724447591717
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Layer height",
+            "ap2Primary": false,
+            "ap1ID": 1724443916539,
+            "ap2ID": 1724447660855
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Layer height",
+            "ap2Primary": false,
+            "ap1ID": 1724443916539,
+            "ap2ID": 1724448144661
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Layer height",
+            "ap2Primary": false,
+            "ap1ID": 1724443916539,
+            "ap2ID": 1724448201625
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Outer Pot Radius",
+            "ap2Primary": false,
+            "ap1ID": 1724443994387,
+            "ap2ID": 1724447591717
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Outer Pot Radius",
+            "ap2Primary": false,
+            "ap1ID": 1724443994387,
+            "ap2ID": 1724448144661
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Outer Pot Radius",
+            "ap2Primary": false,
+            "ap1ID": 1724443994387,
+            "ap2ID": 1724448201625
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Innr pot radius",
+            "ap2Primary": false,
+            "ap1ID": 1724444015515,
+            "ap2ID": 1724447591717
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Outer Pot Radius",
+            "ap2Primary": false,
+            "ap1ID": 1724444015515,
+            "ap2ID": 1724447660855
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": [],
