@@ -670,8 +670,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.525,
-                    "y": 0.5011764705882353,
+                    "x": 0.51875,
+                    "y": 0.5058823529411764,
                     "uniqueID": 1724451288095,
                     "ioValues": [
                         {
@@ -720,8 +720,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4854166666666667,
-                    "y": 0.6541176470588235,
+                    "x": 0.48802083333333335,
+                    "y": 0.6447058823529411,
                     "uniqueID": 1724451331695,
                     "ioValues": [
                         {
@@ -730,7 +730,7 @@
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 1724450636349
+                            "ioValue": 0
                         },
                         {
                             "name": "y-axis degrees",
@@ -771,8 +771,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.6890625,
-                    "y": 0.40705882352941175,
+                    "x": 0.6526041666666667,
+                    "y": 0.3858823529411765,
                     "uniqueID": 1724451508913,
                     "ioValues": [
                         {
@@ -788,8 +788,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.8260416666666667,
-                    "y": 0.35058823529411764,
+                    "x": 0.8302083333333334,
+                    "y": 0.3411764705882353,
                     "uniqueID": 1724451556793,
                     "ioValues": [
                         {
@@ -885,13 +885,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1724450636349,
-                    "ap2ID": 1724451331695
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "x-axis degrees",
-                    "ap2Primary": false,
                     "ap1ID": 1724450636349,
                     "ap2ID": 1724451331695
                 },
