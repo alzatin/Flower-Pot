@@ -105,11 +105,38 @@
                     "y": 0.7294117647058824,
                     "uniqueID": 1724444234329,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.2973958333333333,
+                    "y": 0.49176470588235294,
+                    "uniqueID": 1724445141551,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "2x",
+                    "x": 0.19062500000000002,
+                    "y": 0.4823529411764706,
+                    "uniqueID": 1724445183534,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "2x"
                 }
             ],
             "allConnectors": [],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [],
