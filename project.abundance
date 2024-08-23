@@ -513,8 +513,8 @@
         {
             "atomType": "Molecule",
             "name": "Pot Floor",
-            "x": 0.28958333333333336,
-            "y": 0.3458823529411765,
+            "x": 0.29010416666666666,
+            "y": 0.3788235294117647,
             "uniqueID": 1724447660855,
             "ioValues": [
                 {
@@ -523,7 +523,7 @@
                 },
                 {
                     "name": "Outer Pot Radius",
-                    "ioValue": 78
+                    "ioValue": 100
                 },
                 {
                     "name": "Innr pot radius",
@@ -582,7 +582,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 156
+                            "ioValue": 200
                         }
                     ]
                 },
@@ -595,7 +595,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 78
+                            "ioValue": 100
                         }
                     ],
                     "currentEquation": "2*x"
@@ -651,7 +651,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 39
+                            "ioValue": 50
                         },
                         {
                             "name": "yDist",
@@ -672,7 +672,7 @@
                     "ioValues": [
                         {
                             "name": "R",
-                            "ioValue": 78
+                            "ioValue": 100
                         }
                     ],
                     "currentEquation": "0.5*R"
@@ -1325,17 +1325,17 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "Outer Pot Radius",
+            "ap2Primary": false,
+            "ap1ID": 1724443994387,
+            "ap2ID": 1724447660855
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "Innr pot radius",
             "ap2Primary": false,
             "ap1ID": 1724444015515,
             "ap2ID": 1724447591717
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Outer Pot Radius",
-            "ap2Primary": false,
-            "ap1ID": 1724444015515,
-            "ap2ID": 1724447660855
         },
         {
             "ap1Name": "number or geometry",
