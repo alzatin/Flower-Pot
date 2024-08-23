@@ -1154,6 +1154,19 @@
                         }
                     ],
                     "currentEquation": "Z*-2"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.22395833333333334,
+                    "y": 0.26588235294117646,
+                    "uniqueID": 1724452735649,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 40
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
