@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1724442483674,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Layer height",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -13,6 +18,14 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1724442521471,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Layer height",
+            "x": 0.013333333333333334,
+            "y": 0.41882352941176465,
+            "uniqueID": 1724443916539,
             "ioValues": []
         }
     ],
