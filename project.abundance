@@ -585,15 +585,46 @@
                         }
                     ],
                     "currentEquation": "2*x"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.346875,
+                    "y": 0.6847058823529412,
+                    "uniqueID": 1724450360684,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724449911697
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 18
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447661380,
+                    "ap2ID": 1724450360684
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 1724447660491,
                     "ap2ID": 1724449922915
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724449911697,
+                    "ap2ID": 1724450360684
                 },
                 {
                     "ap1Name": "result",
