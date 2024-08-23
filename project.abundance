@@ -29,7 +29,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1724445987173
+                    "ioValue": 1724446916221
                 }
             ]
         },
@@ -190,8 +190,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.21875,
-            "y": 0.8847058823529412,
+            "x": 0.14947916666666666,
+            "y": 0.8494117647058823,
             "uniqueID": 1724446841073,
             "ioValues": [
                 {
@@ -327,8 +327,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.42447916666666663,
-            "y": 0.8282352941176472,
+            "x": 0.3296875,
+            "y": 0.8470588235294118,
             "uniqueID": 1724446871927,
             "ioValues": [
                 {
@@ -338,6 +338,23 @@
                 {
                     "name": "height",
                     "ioValue": 18
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5234375,
+            "y": 0.7411764705882352,
+            "uniqueID": 1724446916221,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": 1724445987173
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": 1724446871927
                 }
             ]
         }
@@ -380,10 +397,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 1724445987173,
-            "ap2ID": 1724442521471
+            "ap2ID": 1724446916221
         },
         {
             "ap1Name": "Geometry",
@@ -391,6 +408,20 @@
             "ap2Primary": true,
             "ap1ID": 1724446841073,
             "ap2ID": 1724446871927
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1724446871927,
+            "ap2ID": 1724446916221
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724446916221,
+            "ap2ID": 1724442521471
         }
     ],
     "unitsKey": "MM",
