@@ -15,7 +15,7 @@
         },
         {
             "name": "Innr pot radius",
-            "ioValue": 10
+            "ioValue": 20
         }
     ],
     "topLevel": true,
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "Innr pot radius",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ],
             "topLevel": false,
@@ -80,7 +80,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724444233799,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724445141551
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -115,7 +120,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -128,18 +133,48 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 1
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": "2*x"
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1724444233448,
+                    "ap2ID": 1724445183534
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724445141551,
+                    "ap2ID": 1724444233799
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1724445183534,
+                    "ap2ID": 1724445141551
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Innr pot radius",
+            "ap2Primary": false,
+            "ap1ID": 1724444015515,
+            "ap2ID": 1724444233895
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
