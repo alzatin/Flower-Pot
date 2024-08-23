@@ -525,7 +525,7 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "name1",
+                    "name": "Drainage Diameter",
                     "ioValue": 10
                 }
             ],
@@ -609,11 +609,50 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "name1",
+                    "name": "Drainage Diameter",
                     "x": 0.013333333333333334,
                     "y": 0.8776470588235293,
                     "uniqueID": 1724450434854,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.221875,
+                    "y": 0.7247058823529412,
+                    "uniqueID": 1724450581760,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.29375,
+                    "y": 0.8282352941176472,
+                    "uniqueID": 1724450595390,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.37135416666666665,
+                    "y": 0.9270588235294118,
+                    "uniqueID": 1724450602598,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -644,7 +683,22 @@
                     "ap2Primary": false,
                     "ap1ID": 1724449922915,
                     "ap2ID": 1724449911697
-                }
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1724450434854,
+                    "ap2ID": 1724450581760
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1724450434854,
+                    "ap2ID": 1724450595390
+                },
+                null
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
