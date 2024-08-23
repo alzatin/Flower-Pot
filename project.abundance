@@ -1306,8 +1306,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6239583333333333,
-                    "y": 0.42588235294117643,
+                    "x": 0.5875,
+                    "y": 0.3552941176470588,
                     "uniqueID": 1724453921767,
                     "ioValues": [
                         {
@@ -1352,6 +1352,32 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.75,
+                    "y": 0.32941176470588235,
+                    "uniqueID": 1724454037872,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 1724453930206
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 1724453155322
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 1724453921767
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 1724453891064
+                        }
+                    ],
+                    "unionType": "Assembly"
                 }
             ],
             "allConnectors": [
@@ -1459,6 +1485,34 @@
                     "ap2Primary": true,
                     "ap1ID": 1724453155322,
                     "ap2ID": 1724453930206
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1724453155322,
+                    "ap2ID": 1724454037872
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1724453891064,
+                    "ap2ID": 1724454037872
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1724453921767,
+                    "ap2ID": 1724454037872
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1724453930206,
+                    "ap2ID": 1724454037872
                 }
             ],
             "fileTypeVersion": 1,
