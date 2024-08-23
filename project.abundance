@@ -571,7 +571,7 @@
                 },
                 {
                     "name": "Innr pot radius",
-                    "ioValue": 10
+                    "ioValue": 78
                 }
             ],
             "topLevel": false,
@@ -669,7 +669,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
+                    "name": "Pot Tray Wall",
                     "x": 0.3104166666666667,
                     "y": 0.5458823529411765,
                     "uniqueID": 1724448321096,
@@ -795,6 +795,13 @@
             "ap2Primary": false,
             "ap1ID": 1724444015515,
             "ap2ID": 1724447660855
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Innr pot radius",
+            "ap2Primary": false,
+            "ap1ID": 1724444015515,
+            "ap2ID": 1724448201625
         }
     ],
     "unitsKey": "MM",
