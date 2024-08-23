@@ -53,17 +53,63 @@
             "ioValues": []
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.2203125,
-            "y": 0.5811764705882353,
-            "uniqueID": 1724444200978,
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.2328125,
+            "y": 0.6305882352941177,
+            "uniqueID": 1724444233895,
             "ioValues": [
                 {
-                    "name": "diameter",
+                    "name": "Layer height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Outer Pot Radius",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Innr pot radius",
                     "ioValue": 10
                 }
-            ]
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724444233799,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Layer height",
+                    "x": 0.013333333333333334,
+                    "y": 0.41882352941176465,
+                    "uniqueID": 1724444233885,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Outer Pot Radius",
+                    "x": 0.013333333333333334,
+                    "y": 0.5764705882352942,
+                    "uniqueID": 1724444233448,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Innr pot radius",
+                    "x": 0.013333333333333334,
+                    "y": 0.7294117647058824,
+                    "uniqueID": 1724444234329,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [],
