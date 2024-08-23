@@ -533,7 +533,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724447661067,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724450005304
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -589,8 +594,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.6296875,
-                    "y": 0.47764705882352937,
+                    "x": 0.6864583333333334,
+                    "y": 0.33176470588235296,
                     "uniqueID": 1724450005304,
                     "ioValues": [
                         {
@@ -599,6 +604,23 @@
                         }
                     ],
                     "unionType": "Assembly"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.39322916666666663,
+                    "y": 0.691764705882353,
+                    "uniqueID": 1724450026765,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 156
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 156
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -623,10 +645,30 @@
                     "ap1ID": 1724449922915,
                     "ap2ID": 1724449911697
                 },
-                null
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724449922915,
+                    "ap2ID": 1724450026765
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724449922915,
+                    "ap2ID": 1724450026765
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724450005304,
+                    "ap2ID": 1724447661067
+                }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
