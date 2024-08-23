@@ -11,7 +11,7 @@
         },
         {
             "name": "Outer Pot Radius",
-            "ioValue": 10
+            "ioValue": 40
         },
         {
             "name": "Innr pot radius",
@@ -26,7 +26,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1724442521471,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1724444233895
+                }
+            ]
         },
         {
             "atomType": "Input",
@@ -40,7 +45,7 @@
             "atomType": "Input",
             "name": "Outer Pot Radius",
             "x": 0.013333333333333334,
-            "y": 0.5764705882352942,
+            "y": 0.5647058823529412,
             "uniqueID": 1724443994387,
             "ioValues": []
         },
@@ -65,11 +70,11 @@
                 },
                 {
                     "name": "Outer Pot Radius",
-                    "ioValue": 10
+                    "ioValue": 40
                 },
                 {
                     "name": "Innr pot radius",
-                    "ioValue": 20
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -120,7 +125,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 20
+                            "ioValue": 80
                         }
                     ]
                 },
@@ -133,7 +138,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 40
                         }
                     ],
                     "currentEquation": "2*x"
@@ -169,14 +174,21 @@
     "allConnectors": [
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "Innr pot radius",
+            "ap2Name": "Outer Pot Radius",
             "ap2Primary": false,
-            "ap1ID": 1724444015515,
+            "ap1ID": 1724443994387,
             "ap2ID": 1724444233895
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724444233895,
+            "ap2ID": 1724442521471
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
