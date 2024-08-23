@@ -1199,7 +1199,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 58.5
+                            "ioValue": 75
                         },
                         {
                             "name": "yDist",
@@ -1220,7 +1220,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 78
+                            "ioValue": 100
                         }
                     ],
                     "currentEquation": "(3/4)*x"
@@ -1404,15 +1404,15 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
-                    "ap1ID": 1724448144905,
-                    "ap2ID": 1724452239639
+                    "ap1ID": 1724448145407,
+                    "ap2ID": 1724452853885
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 1724448144905,
-                    "ap2ID": 1724452853885
+                    "ap2ID": 1724452239639
                 },
                 {
                     "ap1Name": "result",
@@ -1728,6 +1728,10 @@
                 {
                     "name": "3D shape 2",
                     "ioValue": 1724447660855
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1724448144661
                 }
             ],
             "unionType": "Assembly"
@@ -1823,6 +1827,13 @@
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 1724447660855,
+            "ap2ID": 1724451874760
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1724448144661,
             "ap2ID": 1724451874760
         },
         {
