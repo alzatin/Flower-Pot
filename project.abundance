@@ -1046,7 +1046,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724448145219,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724452373844
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1102,13 +1107,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.7854166666666667,
-                    "y": 0.8588235294117648,
+                    "x": 0.7296875,
+                    "y": 0.7058823529411764,
                     "uniqueID": 1724452338510,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1724454037872
                         },
                         {
                             "name": "height",
@@ -1171,8 +1176,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.2046875,
-                    "y": 0.3529411764705882,
+                    "x": 0.2,
+                    "y": 0.30117647058823527,
                     "uniqueID": 1724452789979,
                     "ioValues": [
                         {
@@ -1281,8 +1286,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5213541666666667,
-                    "y": 0.5435294117647059,
+                    "x": 0.5244791666666666,
+                    "y": 0.5105882352941177,
                     "uniqueID": 1724453891064,
                     "ioValues": [
                         {
@@ -1324,7 +1329,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -1349,7 +1354,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 270
                         }
                     ]
                 },
@@ -1422,6 +1427,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1724452338510,
                     "ap2ID": 1724452373844
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724452373844,
+                    "ap2ID": 1724448145219
                 },
                 {
                     "ap1Name": "result",
@@ -1513,10 +1525,17 @@
                     "ap2Primary": false,
                     "ap1ID": 1724453930206,
                     "ap2ID": 1724454037872
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724454037872,
+                    "ap2ID": 1724452338510
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
