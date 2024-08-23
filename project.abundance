@@ -1102,8 +1102,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5828125,
-                    "y": 0.8847058823529412,
+                    "x": 0.64375,
+                    "y": 0.8588235294117648,
                     "uniqueID": 1724452338510,
                     "ioValues": [
                         {
@@ -1125,7 +1125,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1724452338510
                         },
                         {
                             "name": "xDist",
@@ -1137,15 +1137,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -36
                         }
                     ]
                 },
                 {
                     "atomType": "Equation",
                     "name": "Z*-2",
-                    "x": 0.7932291666666667,
-                    "y": 0.8352941176470589,
+                    "x": 0.7567708333333334,
+                    "y": 0.7647058823529411,
                     "uniqueID": 1724452386146,
                     "ioValues": [
                         {
@@ -1191,6 +1191,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1724452239639,
                     "ap2ID": 1724452229538
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724452338510,
+                    "ap2ID": 1724452373844
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724452386146,
+                    "ap2ID": 1724452373844
                 }
             ],
             "fileTypeVersion": 1,
