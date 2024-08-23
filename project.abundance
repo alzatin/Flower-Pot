@@ -593,8 +593,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.41875,
-                    "y": 0.32941176470588235,
+                    "x": 0.5182291666666667,
+                    "y": 0.18588235294117647,
                     "uniqueID": 1724450360684,
                     "ioValues": [
                         {
@@ -654,77 +654,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 0.22552083333333336,
-                    "y": 0.20941176470588233,
-                    "uniqueID": 1724450898179,
-                    "ioValues": [
-                        {
-                            "name": "Layer height",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Outer Pot Radius",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Innr pot radius",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Drainage Diameter",
-                            "ioValue": 10
-                        }
-                    ],
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
-                            "uniqueID": 1724450897706,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Layer height",
-                            "x": 0.013333333333333334,
-                            "y": 0.33176470588235296,
-                            "uniqueID": 1724450897520,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
-                            "y": 0.5176470588235293,
-                            "uniqueID": 1724450897761,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
-                            "y": 0.7058823529411764,
-                            "uniqueID": 1724450897520,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Drainage Diameter",
-                            "x": 0.013333333333333334,
-                            "y": 0.8776470588235293,
-                            "uniqueID": 1724450897984,
-                            "ioValues": []
-                        }
-                    ],
-                    "allConnectors": [],
-                    "fileTypeVersion": 1,
-                    "compiledBom": {}
-                },
-                {
                     "atomType": "Equation",
                     "name": "0.5*R",
                     "x": 0.15208333333333335,
@@ -741,8 +670,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.51875,
-                    "y": 0.5035294117647059,
+                    "x": 0.525,
+                    "y": 0.5011764705882353,
                     "uniqueID": 1724451288095,
                     "ioValues": [
                         {
@@ -766,8 +695,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4760416666666667,
-                    "y": 0.92,
+                    "x": 0.459375,
+                    "y": 0.8588235294117648,
                     "uniqueID": 1724451311928,
                     "ioValues": [
                         {
@@ -816,16 +745,62 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.6671874999999999,
-                    "y": 0.7435294117647059,
+                    "x": 0.6270833333333333,
+                    "y": 0.7764705882352941,
                     "uniqueID": 1724451436207,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
+                            "name": "3D shape 2",
+                            "ioValue": 1724451288095
+                        },
+                        {
+                            "name": "3D shape 3",
                             "ioValue": 1724451331695
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 1724450636349
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 1724451311928
                         }
                     ],
                     "unionType": "Assembly"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.6890625,
+                    "y": 0.40705882352941175,
+                    "uniqueID": 1724451508913,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724451436207
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 18
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.8260416666666667,
+                    "y": 0.35058823529411764,
+                    "uniqueID": 1724451556793,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1724451508913
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1724450360684
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -835,6 +810,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724447661380,
                     "ap2ID": 1724450360684
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447661380,
+                    "ap2ID": 1724451508913
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -863,6 +845,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724449922915,
                     "ap2ID": 1724449911697
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1724450360684,
+                    "ap2ID": 1724451556793
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -907,6 +896,13 @@
                     "ap2ID": 1724451331695
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1724450636349,
+                    "ap2ID": 1724451436207
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap2Primary": false,
@@ -915,10 +911,38 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1724451288095,
+                    "ap2ID": 1724451436207
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 1724451311928,
+                    "ap2ID": 1724451436207
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 1724451331695,
                     "ap2ID": 1724451436207
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724451436207,
+                    "ap2ID": 1724451508913
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1724451508913,
+                    "ap2ID": 1724451556793
                 }
             ],
             "fileTypeVersion": 1,
