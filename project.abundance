@@ -2065,8 +2065,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pot Tray Bottom",
-                    "x": 0.26145833333333335,
-                    "y": 0.5647058823529412,
+                    "x": 0.23385416666666664,
+                    "y": 0.5741176470588235,
                     "uniqueID": 1724448300157,
                     "ioValues": [
                         {
@@ -2633,13 +2633,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.40468750000000003,
-                    "y": 0.27999999999999997,
+                    "x": 0.41041666666666665,
+                    "y": 0.19294117647058825,
                     "uniqueID": 1724792747640,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1724448300157
+                            "ioValue": ""
                         },
                         {
                             "name": "xDist",
@@ -2664,7 +2664,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1724448321096
+                            "ioValue": ""
                         },
                         {
                             "name": "xDist",
@@ -2725,6 +2725,72 @@
                         }
                     ],
                     "currentEquation": "L*-2"
+                },
+                {
+                    "atomType": "CutLayout",
+                    "name": "Cut Layout",
+                    "x": 0.4213541666666667,
+                    "y": 0.7552941176470588,
+                    "uniqueID": 1724795882919,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724448321096
+                        },
+                        {
+                            "name": "Material Thickness",
+                            "ioValue": 19
+                        },
+                        {
+                            "name": "Sheet Width",
+                            "ioValue": 2438
+                        },
+                        {
+                            "name": "Sheet Height",
+                            "ioValue": 1219
+                        },
+                        {
+                            "name": "Part Padding",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "Sheet Padding",
+                            "ioValue": 76
+                        }
+                    ]
+                },
+                {
+                    "atomType": "CutLayout",
+                    "name": "Cut Layout",
+                    "x": 0.3182291666666667,
+                    "y": 0.5105882352941177,
+                    "uniqueID": 1724795906103,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724448300157
+                        },
+                        {
+                            "name": "Material Thickness",
+                            "ioValue": 19
+                        },
+                        {
+                            "name": "Sheet Width",
+                            "ioValue": 2438
+                        },
+                        {
+                            "name": "Sheet Height",
+                            "ioValue": 1219
+                        },
+                        {
+                            "name": "Part Padding",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "Sheet Padding",
+                            "ioValue": 76
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2787,16 +2853,16 @@
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Primary": false,
                     "ap1ID": 1724448300157,
-                    "ap2ID": 1724792747640
+                    "ap2ID": 1724795906103
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Primary": false,
                     "ap1ID": 1724448321096,
-                    "ap2ID": 1724792793281
+                    "ap2ID": 1724795882919
                 },
                 {
                     "ap1Name": "geometry",
@@ -2832,6 +2898,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1724792961853,
                     "ap2ID": 1724792793281
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724795882919,
+                    "ap2ID": 1724792793281
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724795906103,
+                    "ap2ID": 1724792747640
                 }
             ],
             "fileTypeVersion": 1,
