@@ -1852,9 +1852,88 @@
                             "y": 0.7058823529411764,
                             "uniqueID": 1724448320475,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.49249999999999994,
+                            "y": 0.69,
+                            "uniqueID": 1724791735464,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 254
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "O-I",
+                            "x": 0.1578125,
+                            "y": 0.8376470588235293,
+                            "uniqueID": 1724791757719,
+                            "ioValues": [
+                                {
+                                    "name": "O",
+                                    "ioValue": 100
+                                },
+                                {
+                                    "name": "I",
+                                    "ioValue": 78
+                                }
+                            ],
+                            "currentEquation": "O-I"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "O+D+5",
+                            "x": 0.2546875,
+                            "y": 0.7811764705882354,
+                            "uniqueID": 1724791756848,
+                            "ioValues": [
+                                {
+                                    "name": "O",
+                                    "ioValue": 100
+                                },
+                                {
+                                    "name": "D",
+                                    "ioValue": 22
+                                }
+                            ],
+                            "currentEquation": "O+D+5"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "R*2",
+                            "x": 0.32760416666666664,
+                            "y": 0.9129411764705881,
+                            "uniqueID": 1724791757777,
+                            "ioValues": [
+                                {
+                                    "name": "R",
+                                    "ioValue": 127
+                                }
+                            ],
+                            "currentEquation": "R*2"
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "O",
+                            "ap2Primary": false,
+                            "ap1ID": 1724448320809,
+                            "ap2ID": 1724791757719
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "I",
+                            "ap2Primary": false,
+                            "ap1ID": 1724448320475,
+                            "ap2ID": 1724791757719
+                        },
+                        null
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 }
