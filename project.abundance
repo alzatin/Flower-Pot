@@ -114,8 +114,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Outer",
-                    "x": 0.19583333333333333,
-                    "y": 0.45176470588235296,
+                    "x": 0.20052083333333334,
+                    "y": 0.5882352941176471,
                     "uniqueID": 1724447624579,
                     "ioValues": [
                         {
@@ -251,8 +251,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.278125,
-                    "y": 0.17411764705882354,
+                    "x": 0.29375,
+                    "y": 0.13176470588235295,
                     "uniqueID": 1724447624106,
                     "ioValues": [
                         {
@@ -285,8 +285,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.38385416666666666,
-                    "y": 0.7364705882352941,
+                    "x": 0.3567708333333333,
+                    "y": 0.8611764705882352,
                     "uniqueID": 1724447624433,
                     "ioValues": [
                         {
@@ -457,7 +457,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 18
                         }
                     ]
                 },
@@ -482,7 +482,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 18
                         }
                     ]
                 },
@@ -545,7 +545,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1724447624433
                         },
                         {
                             "name": "xDist",
@@ -572,21 +572,73 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x + y",
-                    "x": 0.4114583333333333,
-                    "y": 0.1670588235294118,
+                    "name": "L*1",
+                    "x": 0.49895833333333334,
+                    "y": 0.38823529411764707,
                     "uniqueID": 1724794406071,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "L",
+                            "ioValue": 18
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "L*1"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "L*2",
+                    "x": 0.5588541666666667,
+                    "y": 0.548235294117647,
+                    "uniqueID": 1724794430346,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 18
+                        }
+                    ],
+                    "currentEquation": "L*2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "L*3",
+                    "x": 0.6375,
+                    "y": 0.6964705882352942,
+                    "uniqueID": 1724794436050,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 18
+                        }
+                    ],
+                    "currentEquation": "L*3"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "L*1",
+                    "x": 0.6744791666666667,
+                    "y": 0.8870588235294117,
+                    "uniqueID": 1724794443119,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 18
+                        }
+                    ],
+                    "currentEquation": "L*1"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "L*1",
+                    "x": 0.39375000000000004,
+                    "y": 0.20941176470588233,
+                    "uniqueID": 1724794446385,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 18
+                        }
+                    ],
+                    "currentEquation": "L*1"
                 }
             ],
             "allConnectors": [
@@ -603,6 +655,41 @@
                     "ap2Primary": false,
                     "ap1ID": 1724447592087,
                     "ap2ID": 1724447624106
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447592087,
+                    "ap2ID": 1724794446385
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447592087,
+                    "ap2ID": 1724794406071
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447592087,
+                    "ap2ID": 1724794430346
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447592087,
+                    "ap2ID": 1724794436050
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724447592087,
+                    "ap2ID": 1724794443119
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -668,11 +755,32 @@
                     "ap2ID": 1724794313792
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724447624433,
+                    "ap2ID": 1724794363905
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1724447624432,
                     "ap2ID": 1724447624343
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724794406071,
+                    "ap2ID": 1724794297230
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724794446385,
+                    "ap2ID": 1724794289517
                 }
             ],
             "fileTypeVersion": 1,
