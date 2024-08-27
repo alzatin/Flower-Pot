@@ -1254,9 +1254,9 @@
                 },
                 {
                     "atomType": "Tag",
-                    "name": "Floor",
-                    "x": 0.8072916666666666,
-                    "y": 0.8494117647058823,
+                    "name": "Floor,cutLayout",
+                    "x": 0.8354166666666666,
+                    "y": 0.8188235294117647,
                     "uniqueID": 1724795185394,
                     "ioValues": [
                         {
@@ -1265,9 +1265,10 @@
                         }
                     ],
                     "tags": [
-                        "Floor"
+                        "Floor",
+                        "cutLayout"
                     ],
-                    "cutTag": false
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -2830,6 +2831,10 @@
             "uniqueID": 1724795008971,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": 1724451874760
+                },
+                {
                     "name": "Material Thickness",
                     "ioValue": 19
                 },
@@ -2857,8 +2862,14 @@
             "x": 0.8427083333333334,
             "y": 0.24,
             "uniqueID": 1724795229405,
-            "ioValues": [],
-            "tagIndex": 0
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1724451874760
+                }
+            ],
+            "tag": "Floor",
+            "tagIndex": 2
         }
     ],
     "allConnectors": [
@@ -2974,7 +2985,20 @@
             "ap1ID": 1724451874760,
             "ap2ID": 1724442521471
         },
-        null
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1724451874760,
+            "ap2ID": 1724795229405
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724451874760,
+            "ap2ID": 1724795008971
+        }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
