@@ -1930,27 +1930,27 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 444
                                 }
                             ]
                         },
                         {
                             "atomType": "Equation",
-                            "name": "O-D+5",
-                            "x": 0.2265625,
-                            "y": 0.5458823529411765,
+                            "name": "O+M-5",
+                            "x": 0.24427083333333333,
+                            "y": 0.5599999999999999,
                             "uniqueID": 1724791844537,
                             "ioValues": [
                                 {
-                                    "name": "O",
-                                    "ioValue": 1
+                                    "name": "M",
+                                    "ioValue": 127
                                 },
                                 {
-                                    "name": "D",
-                                    "ioValue": 1
+                                    "name": "O",
+                                    "ioValue": 100
                                 }
                             ],
-                            "currentEquation": "O-D+5"
+                            "currentEquation": "O+M-5"
                         },
                         {
                             "atomType": "Equation",
@@ -1989,7 +1989,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 1
+                                    "ioValue": 222
                                 }
                             ],
                             "currentEquation": "R*2"
@@ -2077,6 +2077,13 @@
                         },
                         {
                             "ap1Name": "number or geometry",
+                            "ap2Name": "O",
+                            "ap2Primary": false,
+                            "ap1ID": 1724448320809,
+                            "ap2ID": 1724791844537
+                        },
+                        {
+                            "ap1Name": "number or geometry",
                             "ap2Name": "I",
                             "ap2Primary": false,
                             "ap1ID": 1724448320475,
@@ -2105,6 +2112,13 @@
                         },
                         {
                             "ap1Name": "result",
+                            "ap2Name": "M",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791756848,
+                            "ap2ID": 1724791844537
+                        },
+                        {
+                            "ap1Name": "result",
                             "ap2Name": "diameter",
                             "ap2Primary": false,
                             "ap1ID": 1724791757777,
@@ -2116,6 +2130,20 @@
                             "ap2Primary": true,
                             "ap1ID": 1724791812229,
                             "ap2ID": 1724791951449
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "R",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791844537,
+                            "ap2ID": 1724791892312
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "diameter",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791892312,
+                            "ap2ID": 1724791812229
                         },
                         {
                             "ap1Name": "geometry",
