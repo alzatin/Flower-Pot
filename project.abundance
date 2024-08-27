@@ -1594,8 +1594,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pot Tray Bottom",
-                    "x": 0.2515625,
-                    "y": 0.3035294117647059,
+                    "x": 0.26145833333333335,
+                    "y": 0.5647058823529412,
                     "uniqueID": 1724448300157,
                     "ioValues": [
                         {
@@ -1802,8 +1802,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pot Tray Wall",
-                    "x": 0.3109375,
-                    "y": 0.64,
+                    "x": 0.26302083333333337,
+                    "y": 0.7976470588235294,
                     "uniqueID": 1724448321096,
                     "ioValues": [
                         {
@@ -2158,6 +2158,70 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.40468750000000003,
+                    "y": 0.27999999999999997,
+                    "uniqueID": 1724792747640,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724448300157
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 36
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5213541666666667,
+                    "y": 0.41647058823529415,
+                    "uniqueID": 1724792793281,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724448321096
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 18
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "L*2",
+                    "x": 0.28125,
+                    "y": 0.27999999999999997,
+                    "uniqueID": 1724792812547,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 18
+                        }
+                    ],
+                    "currentEquation": "L*2"
                 }
             ],
             "allConnectors": [
@@ -2177,6 +2241,20 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448201463,
+                    "ap2ID": 1724792812547
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448201463,
+                    "ap2ID": 1724792793281
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Outer Pot Radius",
                     "ap2Primary": false,
                     "ap1ID": 1724448202148,
@@ -2202,6 +2280,27 @@
                     "ap2Primary": false,
                     "ap1ID": 1724448202283,
                     "ap2ID": 1724448321096
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724448300157,
+                    "ap2ID": 1724792747640
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724448321096,
+                    "ap2ID": 1724792793281
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724792812547,
+                    "ap2ID": 1724792747640
                 }
             ],
             "fileTypeVersion": 1,
