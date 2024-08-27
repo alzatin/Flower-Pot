@@ -60,8 +60,8 @@
         {
             "atomType": "Molecule",
             "name": "Pot Wall",
-            "x": 0.18802083333333333,
-            "y": 0.19294117647058825,
+            "x": 0.19687500000000002,
+            "y": 0.23058823529411765,
             "uniqueID": 1724447591717,
             "ioValues": [
                 {
@@ -88,7 +88,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": ""
+                            "ioValue": 1724796592871
                         }
                     ]
                 },
@@ -544,8 +544,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.859375,
-                    "y": 0.8164705882352942,
+                    "x": 0.8562500000000001,
+                    "y": 0.8023529411764706,
                     "uniqueID": 1724794363905,
                     "ioValues": [
                         {
@@ -656,9 +656,9 @@
                 },
                 {
                     "atomType": "Join",
-                    "name": "Join",
-                    "x": 0.8526041666666667,
-                    "y": 0.23529411764705882,
+                    "name": "Assembly",
+                    "x": 0.8567708333333334,
+                    "y": 0.19294117647058825,
                     "uniqueID": 1724796592871,
                     "ioValues": [
                         {
@@ -680,12 +680,9 @@
                         {
                             "name": "3D shape 5",
                             "ioValue": 1724794363905
-                        },
-                        {
-                            "name": "3D shape 6",
-                            "ioValue": 1724794906340
                         }
-                    ]
+                    ],
+                    "unionType": "Assembly"
                 }
             ],
             "allConnectors": [
@@ -891,13 +888,6 @@
                     "ap2Primary": true,
                     "ap1ID": 1724794906340,
                     "ap2ID": 1724794363905
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 6",
-                    "ap2Primary": false,
-                    "ap1ID": 1724794906340,
-                    "ap2ID": 1724796592871
                 },
                 {
                     "ap1Name": "geometry",
