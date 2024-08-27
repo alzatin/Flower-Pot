@@ -1644,9 +1644,74 @@
                             "y": 0.7058823529411764,
                             "uniqueID": 1724448299881,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "O-I",
+                            "x": 0.1578125,
+                            "y": 0.8376470588235293,
+                            "uniqueID": 1724791208676,
+                            "ioValues": [
+                                {
+                                    "name": "O",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "I",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "currentEquation": "O-I"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "O+D",
+                            "x": 0.259375,
+                            "y": 0.8,
+                            "uniqueID": 1724791238562,
+                            "ioValues": [
+                                {
+                                    "name": "O",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "D",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "currentEquation": "O+D"
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "O",
+                            "ap2Primary": false,
+                            "ap1ID": 1724448299765,
+                            "ap2ID": 1724791208676
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "O",
+                            "ap2Primary": false,
+                            "ap1ID": 1724448299765,
+                            "ap2ID": 1724791238562
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "I",
+                            "ap2Primary": false,
+                            "ap1ID": 1724448299881,
+                            "ap2ID": 1724791208676
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "D",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791208676,
+                            "ap2ID": 1724791238562
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 },
