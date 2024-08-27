@@ -1786,7 +1786,7 @@
                 },
                 {
                     "atomType": "Join",
-                    "name": "Assembly",
+                    "name": "Fusion",
                     "x": 0.75,
                     "y": 0.32941176470588235,
                     "uniqueID": 1724454037872,
@@ -1808,7 +1808,7 @@
                             "ioValue": 1724453891064
                         }
                     ],
-                    "unionType": "Assembly"
+                    "unionType": "Fusion"
                 },
                 {
                     "atomType": "Tag",
