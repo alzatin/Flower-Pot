@@ -1670,7 +1670,7 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "O+D",
+                            "name": "O+D+5",
                             "x": 0.2546875,
                             "y": 0.7811764705882354,
                             "uniqueID": 1724791238562,
@@ -1684,7 +1684,7 @@
                                     "ioValue": 22
                                 }
                             ],
-                            "currentEquation": "O+D"
+                            "currentEquation": "O+D+5"
                         },
                         {
                             "atomType": "Circle",
@@ -1695,7 +1695,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 244
+                                    "ioValue": 254
                                 }
                             ]
                         },
@@ -1708,7 +1708,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 122
+                                    "ioValue": 127
                                 }
                             ],
                             "currentEquation": "R*2"
@@ -1802,21 +1802,21 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pot Tray Wall",
-                    "x": 0.3104166666666667,
-                    "y": 0.5458823529411765,
+                    "x": 0.3109375,
+                    "y": 0.64,
                     "uniqueID": 1724448321096,
                     "ioValues": [
                         {
                             "name": "Layer height",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "Outer Pot Radius",
-                            "ioValue": 10
+                            "ioValue": 100
                         },
                         {
                             "name": "Innr pot radius",
-                            "ioValue": 10
+                            "ioValue": 78
                         }
                     ],
                     "topLevel": false,
@@ -1869,6 +1869,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Layer height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448201463,
+                    "ap2ID": 1724448321096
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Outer Pot Radius",
                     "ap2Primary": false,
                     "ap1ID": 1724448202148,
@@ -1876,10 +1883,24 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Outer Pot Radius",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448202148,
+                    "ap2ID": 1724448321096
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Innr pot radius",
                     "ap2Primary": false,
                     "ap1ID": 1724448202283,
                     "ap2ID": 1724448300157
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Innr pot radius",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448202283,
+                    "ap2ID": 1724448321096
                 }
             ],
             "fileTypeVersion": 1,
