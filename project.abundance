@@ -2185,7 +2185,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -36
+                            "ioValue": -54
                         }
                     ]
                 },
@@ -2210,15 +2210,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -36
                         }
                     ]
                 },
                 {
                     "atomType": "Equation",
-                    "name": "L*-2",
-                    "x": 0.28125,
-                    "y": 0.27999999999999997,
+                    "name": "L*-3",
+                    "x": 0.171875,
+                    "y": 0.13411764705882354,
                     "uniqueID": 1724792812547,
                     "ioValues": [
                         {
@@ -2226,7 +2226,7 @@
                             "ioValue": 18
                         }
                     ],
-                    "currentEquation": "L*-2"
+                    "currentEquation": "L*-3"
                 },
                 {
                     "atomType": "Join",
@@ -2248,21 +2248,17 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x + y",
-                    "x": 0.440625,
-                    "y": 0.7129411764705882,
+                    "name": "L*-2",
+                    "x": 0.2109375,
+                    "y": 0.32235294117647056,
                     "uniqueID": 1724792961853,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "L",
+                            "ioValue": 18
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "L*-2"
                 }
             ],
             "allConnectors": [
@@ -2286,6 +2282,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724448201463,
                     "ap2ID": 1724792812547
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448201463,
+                    "ap2ID": 1724792961853
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2356,6 +2359,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724792890662,
                     "ap2ID": 1724448201977
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724792961853,
+                    "ap2ID": 1724792793281
                 }
             ],
             "fileTypeVersion": 1,
@@ -2379,6 +2389,10 @@
                 {
                     "name": "3D shape 3",
                     "ioValue": 1724448144661
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 1724448201625
                 }
             ],
             "unionType": "Assembly"
@@ -2481,6 +2495,13 @@
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 1724448144661,
+            "ap2ID": 1724451874760
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1724448201625,
             "ap2ID": 1724451874760
         },
         {
