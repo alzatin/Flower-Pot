@@ -1600,15 +1600,15 @@
                     "ioValues": [
                         {
                             "name": "Layer height",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "Outer Pot Radius",
-                            "ioValue": 10
+                            "ioValue": 100
                         },
                         {
                             "name": "Innr pot radius",
-                            "ioValue": 10
+                            "ioValue": 78
                         }
                     ],
                     "topLevel": false,
@@ -1659,11 +1659,11 @@
                             "ioValues": [
                                 {
                                     "name": "O",
-                                    "ioValue": 10
+                                    "ioValue": 100
                                 },
                                 {
                                     "name": "I",
-                                    "ioValue": 10
+                                    "ioValue": 78
                                 }
                             ],
                             "currentEquation": "O-I"
@@ -1671,17 +1671,17 @@
                         {
                             "atomType": "Equation",
                             "name": "O+D",
-                            "x": 0.259375,
-                            "y": 0.8,
+                            "x": 0.2546875,
+                            "y": 0.7811764705882354,
                             "uniqueID": 1724791238562,
                             "ioValues": [
                                 {
                                     "name": "O",
-                                    "ioValue": 10
+                                    "ioValue": 100
                                 },
                                 {
                                     "name": "D",
-                                    "ioValue": 0
+                                    "ioValue": 22
                                 }
                             ],
                             "currentEquation": "O+D"
@@ -1695,7 +1695,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 20
+                                    "ioValue": 244
                                 }
                             ]
                         },
@@ -1708,7 +1708,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 10
+                                    "ioValue": 122
                                 }
                             ],
                             "currentEquation": "R*2"
@@ -1726,7 +1726,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 18
                                 }
                             ]
                         }
@@ -1859,7 +1859,29 @@
                     "compiledBom": {}
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Layer height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448201463,
+                    "ap2ID": 1724448300157
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Outer Pot Radius",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448202148,
+                    "ap2ID": 1724448300157
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Innr pot radius",
+                    "ap2Primary": false,
+                    "ap1ID": 1724448202283,
+                    "ap2ID": 1724448300157
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },
