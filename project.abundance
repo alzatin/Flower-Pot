@@ -1827,7 +1827,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1724448321017,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1724791989648
+                                }
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -1978,8 +1983,8 @@
                         {
                             "atomType": "Equation",
                             "name": "R*2",
-                            "x": 0.3302083333333333,
-                            "y": 0.5599999999999999,
+                            "x": 0.3333333333333333,
+                            "y": 0.6658823529411765,
                             "uniqueID": 1724791892312,
                             "ioValues": [
                                 {
@@ -2153,10 +2158,17 @@
                             "ap2Primary": false,
                             "ap1ID": 1724791956856,
                             "ap2ID": 1724791989648
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791989648,
+                            "ap2ID": 1724448321017
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 }
             ],
             "allConnectors": [
