@@ -946,7 +946,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1724451734149
+                            "ioValue": 1724795185394
                         }
                     ]
                 },
@@ -1199,8 +1199,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.8302083333333334,
-                    "y": 0.3411764705882353,
+                    "x": 0.7609375,
+                    "y": 0.28705882352941176,
                     "uniqueID": 1724451556793,
                     "ioValues": [
                         {
@@ -1216,8 +1216,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8833333333333333,
-                    "y": 0.7011764705882353,
+                    "x": 0.8010416666666665,
+                    "y": 0.6188235294117648,
                     "uniqueID": 1724451734149,
                     "ioValues": [
                         {
@@ -1241,8 +1241,8 @@
                 {
                     "atomType": "Equation",
                     "name": "x*-1",
-                    "x": 0.7744791666666666,
-                    "y": 0.8141176470588235,
+                    "x": 0.725,
+                    "y": 0.7411764705882352,
                     "uniqueID": 1724451788927,
                     "ioValues": [
                         {
@@ -1251,6 +1251,23 @@
                         }
                     ],
                     "currentEquation": "x*-1"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Floor",
+                    "x": 0.8072916666666666,
+                    "y": 0.8494117647058823,
+                    "uniqueID": 1724795185394,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724451734149
+                        }
+                    ],
+                    "tags": [
+                        "Floor"
+                    ],
+                    "cutTag": false
                 }
             ],
             "allConnectors": [
@@ -1403,10 +1420,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1724451734149,
-                    "ap2ID": 1724447661067
+                    "ap2ID": 1724795185394
                 },
                 {
                     "ap1Name": "result",
@@ -1414,6 +1431,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724451788927,
                     "ap2ID": 1724451734149
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724795185394,
+                    "ap2ID": 1724447661067
                 }
             ],
             "fileTypeVersion": 1,
@@ -2806,10 +2830,6 @@
             "uniqueID": 1724795008971,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1724451874760
-                },
-                {
                     "name": "Material Thickness",
                     "ioValue": 19
                 },
@@ -2830,6 +2850,15 @@
                     "ioValue": 76
                 }
             ]
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.8427083333333334,
+            "y": 0.24,
+            "uniqueID": 1724795229405,
+            "ioValues": [],
+            "tagIndex": 0
         }
     ],
     "allConnectors": [
@@ -2945,13 +2974,7 @@
             "ap1ID": 1724451874760,
             "ap2ID": 1724442521471
         },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1724451874760,
-            "ap2ID": 1724795008971
-        }
+        null
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
