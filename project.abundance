@@ -2126,7 +2126,7 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "O+D+5",
+                            "name": "O+D+10",
                             "x": 0.2546875,
                             "y": 0.7811764705882354,
                             "uniqueID": 1724791238562,
@@ -2140,7 +2140,7 @@
                                     "ioValue": 22
                                 }
                             ],
-                            "currentEquation": "O+D+5"
+                            "currentEquation": "O+D+10"
                         },
                         {
                             "atomType": "Circle",
@@ -2151,7 +2151,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 254
+                                    "ioValue": 264
                                 }
                             ]
                         },
@@ -2164,7 +2164,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 127
+                                    "ioValue": 132
                                 }
                             ],
                             "currentEquation": "R*2"
@@ -2875,8 +2875,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.7322916666666667,
-            "y": 0.2823529411764706,
+            "x": 0.7307291666666667,
+            "y": 0.2988235294117647,
             "uniqueID": 1724451874760,
             "ioValues": [
                 {
