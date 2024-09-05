@@ -2879,7 +2879,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1725570845457
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -2887,7 +2887,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Part Name"
+                    "ioValue": "Flower Pot"
                 },
                 {
                     "name": "File Type",
@@ -3052,6 +3052,13 @@
             "ap2Primary": false,
             "ap1ID": 1724451874760,
             "ap2ID": 1725570845457
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1725570845457,
+            "ap2ID": 1725568833779
         }
     ],
     "unitsKey": "MM",
