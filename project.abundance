@@ -2873,9 +2873,9 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.8041666666666667,
-            "y": 0.7247058823529412,
-            "uniqueID": 1725567894492,
+            "x": 0.7854166666666667,
+            "y": 0.6988235294117647,
+            "uniqueID": 1725568801120,
             "ioValues": [
                 {
                     "name": "geometry",
@@ -2902,6 +2902,35 @@
                     "ioValue": 76
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.9119791666666668,
+            "y": 0.6941176470588235,
+            "uniqueID": 1725568833779,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
         }
     ],
     "allConnectors": [
@@ -3022,7 +3051,7 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1724451874760,
-            "ap2ID": 1725567894492
+            "ap2ID": 1725568801120
         }
     ],
     "unitsKey": "MM",
