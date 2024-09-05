@@ -2871,35 +2871,6 @@
             "unionType": "Assembly"
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.7963541666666667,
-            "y": 0.7270588235294118,
-            "uniqueID": 1724795008971,
-            "ioValues": [
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 19
-                },
-                {
-                    "name": "Sheet Width",
-                    "ioValue": 2438
-                },
-                {
-                    "name": "Sheet Height",
-                    "ioValue": 1219
-                },
-                {
-                    "name": "Part Padding",
-                    "ioValue": 6
-                },
-                {
-                    "name": "Sheet Padding",
-                    "ioValue": 76
-                }
-            ]
-        },
-        {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
             "x": 0.8427083333333334,
