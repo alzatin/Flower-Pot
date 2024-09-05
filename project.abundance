@@ -2898,6 +2898,39 @@
             "resolution": 72,
             "importIndex": 0,
             "fileName": null
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.7588541666666667,
+            "y": 0.7341176470588235,
+            "uniqueID": 1725569182677,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1724451874760
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 19
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 76
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -3012,6 +3045,13 @@
             "ap2Primary": false,
             "ap1ID": 1724451874760,
             "ap2ID": 1724442521471
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724451874760,
+            "ap2ID": 1725569182677
         }
     ],
     "unitsKey": "MM",
