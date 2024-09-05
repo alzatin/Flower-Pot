@@ -2869,21 +2869,6 @@
                 }
             ],
             "unionType": "Assembly"
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.8427083333333334,
-            "y": 0.24,
-            "uniqueID": 1724795229405,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1724451874760
-                }
-            ],
-            "tag": "Floor",
-            "tagIndex": 2
         }
     ],
     "allConnectors": [
@@ -2998,13 +2983,6 @@
             "ap2Primary": false,
             "ap1ID": 1724451874760,
             "ap2ID": 1724442521471
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1724451874760,
-            "ap2ID": 1724795229405
         }
     ],
     "unitsKey": "MM",
