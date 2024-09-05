@@ -2902,25 +2902,21 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7536458333333333,
-            "y": 0.6964705882352942,
-            "uniqueID": 1725569648662,
+            "x": 0.7416666666666667,
+            "y": 0.7082352941176471,
+            "uniqueID": 1725570143258,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1724451874760
-                },
                 {
                     "name": "Material Thickness",
                     "ioValue": 19
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 300
+                    "ioValue": 2438
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 300
+                    "ioValue": 1219
                 },
                 {
                     "name": "Part Padding",
@@ -3045,13 +3041,6 @@
             "ap2Primary": false,
             "ap1ID": 1724451874760,
             "ap2ID": 1724442521471
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1724451874760,
-            "ap2ID": 1725569648662
         }
     ],
     "unitsKey": "MM",
