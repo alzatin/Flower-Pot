@@ -2907,6 +2907,10 @@
             "uniqueID": 1725569648662,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": 1724451874760
+                },
+                {
                     "name": "Material Thickness",
                     "ioValue": 19
                 },
@@ -3042,7 +3046,13 @@
             "ap1ID": 1724451874760,
             "ap2ID": 1724442521471
         },
-        null
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724451874760,
+            "ap2ID": 1725569648662
+        }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
