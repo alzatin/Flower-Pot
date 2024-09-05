@@ -2323,7 +2323,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 2
+                                    "ioValue": 244
                                 }
                             ]
                         },
@@ -2372,7 +2372,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 1
+                                    "ioValue": 122
                                 }
                             ],
                             "currentEquation": "R*2"
@@ -2386,23 +2386,23 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 2
+                                    "ioValue": 224
                                 }
                             ]
                         },
                         {
                             "atomType": "Equation",
-                            "name": "O-10",
+                            "name": "T-10",
                             "x": 0.3208333333333333,
                             "y": 0.6,
                             "uniqueID": 1724791844537,
                             "ioValues": [
                                 {
-                                    "name": "O",
+                                    "name": "T",
                                     "ioValue": 122
                                 }
                             ],
-                            "currentEquation": "O-10"
+                            "currentEquation": "T-10"
                         },
                         {
                             "atomType": "Equation",
@@ -2413,7 +2413,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 1
+                                    "ioValue": 112
                                 }
                             ],
                             "currentEquation": "R*2"
@@ -2522,10 +2522,17 @@
                         },
                         {
                             "ap1Name": "result",
-                            "ap2Name": "O",
+                            "ap2Name": "T",
                             "ap2Primary": false,
                             "ap1ID": 1724791756848,
                             "ap2ID": 1724791844537
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "R",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791756848,
+                            "ap2ID": 1724791757777
                         },
                         {
                             "ap1Name": "result",
@@ -2540,6 +2547,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1724791812229,
                             "ap2ID": 1724791951449
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "R",
+                            "ap2Primary": false,
+                            "ap1ID": 1724791844537,
+                            "ap2ID": 1724791892312
                         },
                         {
                             "ap1Name": "result",
