@@ -18,6 +18,7 @@
             "ioValue": 78
         }
     ],
+    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
@@ -31,31 +32,35 @@
                     "name": "number or geometry",
                     "ioValue": 1724451874760
                 }
-            ]
+            ],
+            "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Input",
             "name": "Layer height",
-            "x": 0.013333333333333334,
+            "x": 0.04,
             "y": 0.33176470588235296,
             "uniqueID": 1724443916539,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Input",
             "name": "Outer Pot Radius",
-            "x": 0.013333333333333334,
+            "x": 0.04,
             "y": 0.5176470588235293,
             "uniqueID": 1724443994387,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Input",
             "name": "Innr pot radius",
-            "x": 0.013333333333333334,
+            "x": 0.04,
             "y": 0.7058823529411764,
             "uniqueID": 1724444015515,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Molecule",
@@ -77,6 +82,7 @@
                     "ioValue": 78
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -90,31 +96,35 @@
                             "name": "number or geometry",
                             "ioValue": 1724796592871
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Layer height",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.33176470588235296,
                     "uniqueID": 1724447592087,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Outer Pot Radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.5176470588235293,
                     "uniqueID": 1724447591763,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Innr pot radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.7058823529411764,
                     "uniqueID": 1724447591654,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Molecule",
@@ -136,6 +146,7 @@
                             "ioValue": 10
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -149,31 +160,35 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724447624472
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Layer height",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.41882352941176465,
                             "uniqueID": 1724447624510,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.5764705882352942,
                             "uniqueID": 1724447624233,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.7294117647058824,
                             "uniqueID": 1724447624728,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Circle",
@@ -186,7 +201,8 @@
                                     "name": "diameter",
                                     "ioValue": 200
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Equation",
@@ -200,31 +216,35 @@
                                     "ioValue": 100
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "2*x"
                         },
                         {
                             "atomType": "Input",
                             "name": "Layer height",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.33176470588235296,
                             "uniqueID": 1724447624213,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.5176470588235293,
                             "uniqueID": 1724447624763,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.7058823529411764,
                             "uniqueID": 1724447624823,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         }
                     ],
                     "allConnectors": [
@@ -268,7 +288,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Extrude",
@@ -285,7 +306,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Difference",
@@ -302,7 +324,8 @@
                             "name": "geometry1",
                             "ioValue": 1724447624106
                         }
-                    ]
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 },
                 {
                     "atomType": "Molecule",
@@ -324,6 +347,7 @@
                             "ioValue": 78
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -337,31 +361,35 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724447624100
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Layer height",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.33176470588235296,
                             "uniqueID": 1724447624441,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.5176470588235293,
                             "uniqueID": 1724447624824,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.7294117647058824,
                             "uniqueID": 1724447624601,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Equation",
@@ -375,6 +403,7 @@
                                     "ioValue": 78
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "2*x"
                         },
                         {
@@ -388,31 +417,35 @@
                                     "name": "diameter",
                                     "ioValue": 156
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Input",
                             "name": "Layer height",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.33176470588235296,
                             "uniqueID": 1724447624460,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.5176470588235293,
                             "uniqueID": 1724447624328,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.7058823529411764,
                             "uniqueID": 1724447624738,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         }
                     ],
                     "allConnectors": [
@@ -464,7 +497,8 @@
                             "name": "zDist",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -489,7 +523,8 @@
                             "name": "zDist",
                             "ioValue": 36
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -514,7 +549,8 @@
                             "name": "zDist",
                             "ioValue": 54
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -539,7 +575,8 @@
                             "name": "zDist",
                             "ioValue": 72
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -564,7 +601,8 @@
                             "name": "zDist",
                             "ioValue": 90
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -578,6 +616,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*2"
                 },
                 {
@@ -592,6 +631,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*3"
                 },
                 {
@@ -606,6 +646,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*4"
                 },
                 {
@@ -620,6 +661,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*5"
                 },
                 {
@@ -634,6 +676,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*1"
                 },
                 {
@@ -648,6 +691,7 @@
                             "ioValue": 1724447624433
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "cutLayout",
                         ""
@@ -686,6 +730,7 @@
                             "ioValue": 1724794906340
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Assembly"
                 }
             ],
@@ -935,6 +980,7 @@
                     "ioValue": 10
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -948,31 +994,35 @@
                             "name": "number or geometry",
                             "ioValue": 1724795185394
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Layer height",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.33176470588235296,
                     "uniqueID": 1724447661380,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Outer Pot Radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.5176470588235293,
                     "uniqueID": 1724447660491,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Innr pot radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.7058823529411764,
                     "uniqueID": 1724447660538,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Circle",
@@ -985,7 +1035,8 @@
                             "name": "diameter",
                             "ioValue": 200
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Equation",
@@ -999,6 +1050,7 @@
                             "ioValue": 100
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "2*x"
                 },
                 {
@@ -1016,15 +1068,17 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Drainage Diameter",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.8776470588235293,
                     "uniqueID": 1724450434854,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Circle",
@@ -1037,7 +1091,8 @@
                             "name": "diameter",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Move",
@@ -1062,7 +1117,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -1076,6 +1132,7 @@
                             "ioValue": 100
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "0.5*R"
                 },
                 {
@@ -1101,7 +1158,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 90
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Rotate",
@@ -1126,7 +1184,8 @@
                             "name": "z-axis degrees",
                             "ioValue": -90
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Rotate",
@@ -1151,7 +1210,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 180
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Join",
@@ -1177,6 +1237,7 @@
                             "ioValue": 1724451311928
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Assembly"
                 },
                 {
@@ -1194,7 +1255,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Difference",
@@ -1211,7 +1273,8 @@
                             "name": "geometry1",
                             "ioValue": 1724450360684
                         }
-                    ]
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 },
                 {
                     "atomType": "Move",
@@ -1236,7 +1299,8 @@
                             "name": "zDist",
                             "ioValue": -18
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -1250,6 +1314,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x*-1"
                 },
                 {
@@ -1264,6 +1329,7 @@
                             "ioValue": 1724451734149
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "cutLayout",
                         ""
@@ -1464,6 +1530,7 @@
                     "ioValue": 78
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1477,31 +1544,35 @@
                             "name": "number or geometry",
                             "ioValue": 1724452373844
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Layer height",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.33176470588235296,
                     "uniqueID": 1724448144441,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Outer Pot Radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.5176470588235293,
                     "uniqueID": 1724448145407,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Innr pot radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.7058823529411764,
                     "uniqueID": 1724448144905,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Circle",
@@ -1514,7 +1585,8 @@
                             "name": "diameter",
                             "ioValue": 156
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Equation",
@@ -1528,6 +1600,7 @@
                             "ioValue": 78
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x*2"
                 },
                 {
@@ -1545,7 +1618,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Move",
@@ -1570,7 +1644,8 @@
                             "name": "zDist",
                             "ioValue": -36
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -1584,6 +1659,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "Z*-2"
                 },
                 {
@@ -1597,7 +1673,8 @@
                             "name": "diameter",
                             "ioValue": 40
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Circle",
@@ -1610,7 +1687,8 @@
                             "name": "diameter",
                             "ioValue": 20
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Move",
@@ -1635,7 +1713,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -1649,6 +1728,7 @@
                             "ioValue": 100
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "(3/4)*x"
                 },
                 {
@@ -1674,7 +1754,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 45
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "ShrinkWrap",
@@ -1707,7 +1788,8 @@
                             "name": "3D shape 5",
                             "ioValue": ""
                         }
-                    ]
+                    ],
+                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                 },
                 {
                     "atomType": "Rotate",
@@ -1732,7 +1814,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 90
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Rotate",
@@ -1757,7 +1840,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 180
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Rotate",
@@ -1782,7 +1866,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 270
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Join",
@@ -1808,6 +1893,7 @@
                             "ioValue": 1724453891064
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
                 },
                 {
@@ -1822,6 +1908,7 @@
                             "ioValue": 1724452338510
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
@@ -2008,6 +2095,7 @@
                     "ioValue": 78
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -2021,31 +2109,35 @@
                             "name": "number or geometry",
                             "ioValue": 1724792890662
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Layer height",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.33176470588235296,
                     "uniqueID": 1724448201463,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Outer Pot Radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.5176470588235293,
                     "uniqueID": 1724448202148,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Innr pot radius",
-                    "x": 0.013333333333333334,
+                    "x": 0.04,
                     "y": 0.7058823529411764,
                     "uniqueID": 1724448202283,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Molecule",
@@ -2067,6 +2159,7 @@
                             "ioValue": 78
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -2080,31 +2173,35 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724791353277
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Layer height",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.33176470588235296,
                             "uniqueID": 1724448299631,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.5176470588235293,
                             "uniqueID": 1724448299765,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.7058823529411764,
                             "uniqueID": 1724448299881,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Equation",
@@ -2122,6 +2219,7 @@
                                     "ioValue": 78
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "O-I"
                         },
                         {
@@ -2140,6 +2238,7 @@
                                     "ioValue": 22
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "O+D"
                         },
                         {
@@ -2153,7 +2252,8 @@
                                     "name": "diameter",
                                     "ioValue": 244
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Equation",
@@ -2167,6 +2267,7 @@
                                     "ioValue": 122
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "R*2"
                         },
                         {
@@ -2184,7 +2285,8 @@
                                     "name": "height",
                                     "ioValue": 18
                                 }
-                            ]
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         }
                     ],
                     "allConnectors": [
@@ -2275,6 +2377,7 @@
                             "ioValue": 78
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -2288,31 +2391,35 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724791989648
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Layer height",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.33176470588235296,
                             "uniqueID": 1724448321151,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Outer Pot Radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.5176470588235293,
                             "uniqueID": 1724448320809,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Innr pot radius",
-                            "x": 0.013333333333333334,
+                            "x": 0.04,
                             "y": 0.7058823529411764,
                             "uniqueID": 1724448320475,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Circle",
@@ -2325,7 +2432,8 @@
                                     "name": "diameter",
                                     "ioValue": 244
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Equation",
@@ -2343,6 +2451,7 @@
                                     "ioValue": 78
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "O-I"
                         },
                         {
@@ -2361,6 +2470,7 @@
                                     "ioValue": 22
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "O+D"
                         },
                         {
@@ -2375,6 +2485,7 @@
                                     "ioValue": 122
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "R*2"
                         },
                         {
@@ -2388,7 +2499,8 @@
                                     "name": "diameter",
                                     "ioValue": 224
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Equation",
@@ -2402,6 +2514,7 @@
                                     "ioValue": 122
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "T-10"
                         },
                         {
@@ -2416,6 +2529,7 @@
                                     "ioValue": 112
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "R*2"
                         },
                         {
@@ -2433,7 +2547,8 @@
                                     "name": "height",
                                     "ioValue": 18
                                 }
-                            ]
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         },
                         {
                             "atomType": "Extrude",
@@ -2450,7 +2565,8 @@
                                     "name": "height",
                                     "ioValue": 18
                                 }
-                            ]
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         },
                         {
                             "atomType": "Difference",
@@ -2467,7 +2583,8 @@
                                     "name": "geometry1",
                                     "ioValue": 1724791956856
                                 }
-                            ]
+                            ],
+                            "description": "Subtracts shape two from shape one."
                         }
                     ],
                     "allConnectors": [
@@ -2610,7 +2727,8 @@
                             "name": "zDist",
                             "ioValue": -54
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -2635,7 +2753,8 @@
                             "name": "zDist",
                             "ioValue": -36
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -2649,6 +2768,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*-3"
                 },
                 {
@@ -2667,6 +2787,7 @@
                             "ioValue": 1724792793281
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Assembly"
                 },
                 {
@@ -2681,6 +2802,7 @@
                             "ioValue": 18
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "L*-2"
                 },
                 {
@@ -2695,6 +2817,7 @@
                             "ioValue": 1724448321096
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "cutLayout",
                         ""
@@ -2713,6 +2836,7 @@
                             "ioValue": 1724448300157
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "cutLayout",
                         ""
@@ -2868,6 +2992,7 @@
                     "ioValue": 1724448201625
                 }
             ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Assembly"
         },
         {
@@ -2894,6 +3019,7 @@
                     "ioValue": "SVG"
                 }
             ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
             "type": null,
             "resolution": 72,
             "importIndex": 0,
@@ -2930,7 +3056,8 @@
                     "name": "Sheet Padding",
                     "ioValue": 76
                 }
-            ]
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
         }
     ],
     "allConnectors": [
